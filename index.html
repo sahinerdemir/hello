@@ -18,7 +18,15 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
+<script> 
+        var script = document.createElement("script");
+       script.async = true;
+       script.id = "chatbotscript";
+       script.dataset.accountid = 'V22jMKqi174ccu8km/rbjQ==';
+       script.dataset.websiteid = '1jlJTdYjsxSz1h2mXLolWQ==';
+       script.src = "https://app.robofy.ai/bot/js/encChatWidget.js?v=" + new Date().getTime();
+       document.head.appendChild(script);
+</script>
     <!-- preloader - start -->
     <div class="preloader">
         <div id="pulse-wrapper">
