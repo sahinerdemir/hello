@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    { "source": "/krg", "destination": "/krg/", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/krg/", "destination": "https://krg-ecru.vercel.app/" },
+    { "source": "/krg/:path+", "destination": "https://krg-ecru.vercel.app/:path+" }
+  ]
+}
